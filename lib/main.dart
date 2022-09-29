@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/home_page.dart';
+import 'package:unknownpro/search.dart';
 
 void main() {
   runApp(const Unknown());
@@ -16,7 +17,7 @@ class Unknown extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: HomePage(),
+      home: const Search(),
     );
   }
 }
