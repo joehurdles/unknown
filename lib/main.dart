@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/home_page.dart';
 import 'package:unknownpro/search.dart';
+import 'package:unknownpro/tourists.dart';
 
 void main() {
   runApp(const Unknown());
@@ -17,7 +18,7 @@ class Unknown extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: const HomePage(),
+      home: const Tourist(),
     );
   }
 }
