@@ -17,7 +17,7 @@ class Unknown extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      home: const Search(),
+      home: const HomePage(),
     );
   }
 }
