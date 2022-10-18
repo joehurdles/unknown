@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class RattrayPark extends StatefulWidget {
   const RattrayPark({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class RattrayParkState extends State<RattrayPark> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(
@@ -53,7 +67,7 @@ class RattrayParkState extends State<RattrayPark> {
           ),
         ),
         Text(
-          "The RattrayPark Palace (Akan language meaning Oman hyia thus gathering of the people) is the seat of the Asantehene of Asanteman, as well as his official residence.[1] It is located at Kumasi, the capital of the Ashanti Region. The first palace is now a museum. Otumfuor Opoku Ware II built the new palace, which is close to the old one and is used by the current Asantehene, Otumfuor Osei Tutu II.",
+          "Rattray Park is a recreational and a modern amusement park located in Kumasi in the capital city of the Ashanti Region of Ghana. The park is near-immaculate: like a fairly standard park elsewhere in the world (manicured lawns, gardens, pathways, benches, playground), but unique for Ghana.",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],

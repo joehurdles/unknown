@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class Manhyia extends StatefulWidget {
   const Manhyia({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class ManhyiaState extends State<Manhyia> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(

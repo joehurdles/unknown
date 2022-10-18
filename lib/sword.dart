@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class Sword extends StatefulWidget {
   const Sword({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class SwordState extends State<Sword> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(
@@ -53,7 +67,7 @@ class SwordState extends State<Sword> {
           ),
         ),
         Text(
-          "The Sword Palace (Akan language meaning Oman hyia thus gathering of the people) is the seat of the Asantehene of Asanteman, as well as his official residence.[1] It is located at Kumasi, the capital of the Ashanti Region. The first palace is now a museum. Otumfuor Opoku Ware II built the new palace, which is close to the old one and is used by the current Asantehene, Otumfuor Osei Tutu II.",
+          "3.	The ‘immovable’ Sword driven into the ground by Okomfo Anokye remains and is venue of the Okomfo Anokye Teaching Hospital. History has it that the sword was pushed into the ground, almost 300 years ago. It is believed the Okomfo pronounced that no one would be able to remove the sword, and so it has remained in spite of attempts. The Ashanti state, it is believed, would collapse should the sword ever be pulled out of the ground.",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],

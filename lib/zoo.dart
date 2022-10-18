@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class Zoo extends StatefulWidget {
   const Zoo({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class ZooState extends State<Zoo> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(
@@ -53,7 +67,7 @@ class ZooState extends State<Zoo> {
           ),
         ),
         Text(
-          "The Zoo Palace (Akan language meaning Oman hyia thus gathering of the people) is the seat of the Asantehene of Asanteman, as well as his official residence.[1] It is located at Kumasi, the capital of the Ashanti Region. The first palace is now a museum. Otumfuor Opoku Ware II built the new palace, which is close to the old one and is used by the current Asantehene, Otumfuor Osei Tutu II.",
+          "The Kumasi Zoo is a zoo located in the heart of Kumasi in the Ashanti Region of Ghana. The zoo occupies a 1.5-square-kilometre area between the Kejetia Bus Terminal, the old race course and the Kumasi Centre for National Culture.",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],

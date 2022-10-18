@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class Owabi extends StatefulWidget {
   const Owabi({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class OwabiState extends State<Owabi> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(
@@ -53,7 +67,7 @@ class OwabiState extends State<Owabi> {
           ),
         ),
         Text(
-          "The Owabi Palace (Akan language meaning Oman hyia thus gathering of the people) is the seat of the Asantehene of Asanteman, as well as his official residence.[1] It is located at Kumasi, the capital of the Ashanti Region. The first palace is now a museum. Otumfuor Opoku Ware II built the new palace, which is close to the old one and is used by the current Asantehene, Otumfuor Osei Tutu II.",
+          "Owabi Wildlife Sanctuary is a bird sanctuary, located in Kumasi, Ghana. It is home to many butterflies, over 140 species of birds, monkeys and the more reclusive bushpig, bushbuck and antelope. The region is rich with indigenous birds and some migrants. There are about 161 kinds of birds. The sanctuary is also the only inland Ramsar Convention site in the country of Ghana. Owabi Wildlife Sanctuary, Kumasi can also be suitable for arranging picnics and bird watching",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],

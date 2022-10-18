@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/tourists.dart';
 
 class ArmedForces extends StatefulWidget {
   const ArmedForces({Key? key}) : super(key: key);
@@ -13,6 +14,19 @@ class ArmedForcesState extends State<ArmedForces> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => const Tourist()));
+            },
+            icon: const Icon(
+              Icons.arrow_back,
+              color: Colors.black,
+            )),
+      ),
       body: ListView(
         children: [
           Container(
@@ -53,7 +67,7 @@ class ArmedForcesState extends State<ArmedForces> {
           ),
         ),
         Text(
-          "The ArmedForces Palace (Akan language meaning Oman hyia thus gathering of the people) is the seat of the Asantehene of Asanteman, as well as his official residence.[1] It is located at Kumasi, the capital of the Ashanti Region. The first palace is now a museum. Otumfuor Opoku Ware II built the new palace, which is close to the old one and is used by the current Asantehene, Otumfuor Osei Tutu II.",
+          "The Armed Forces Museum is a military history museum located in Kumasi, Ghana. It was established in 1953. It has since become the Ghana Armed Forces museum, which is a fascinating exhibit of a rarely explored military history of the Gold Coast Regiments of the World.",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],
