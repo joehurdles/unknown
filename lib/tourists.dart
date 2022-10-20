@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/home_page.dart';
-import 'package:unknownpro/manhyia.dart';
+import 'package:unknownpro/keta_lagoon.dart';
+import 'package:unknownpro/lighthouse.dart';
+import 'package:unknownpro/prinzenstein.dart';
+import 'package:unknownpro/wenya.dart';
 
 class Tourist extends StatelessWidget {
   const Tourist({super.key});
@@ -36,8 +39,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -59,7 +62,7 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                    MaterialPageRoute(builder: (_) => const Prinzenstein()));
               },
             ),
           ),
@@ -81,7 +84,7 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                    MaterialPageRoute(builder: (_) => const LightHouse()));
               },
             ),
           ),
@@ -102,8 +105,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -124,8 +127,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -147,7 +150,7 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                    MaterialPageRoute(builder: (_) => const KetaLagoon()));
               },
             ),
           ),
@@ -168,8 +171,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -190,8 +193,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -212,8 +215,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -234,8 +237,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -256,8 +259,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -278,8 +281,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -300,8 +303,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -322,8 +325,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -344,8 +347,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -366,8 +369,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -388,8 +391,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -410,8 +413,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -432,8 +435,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -454,8 +457,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -476,8 +479,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -498,8 +501,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -520,8 +523,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -542,8 +545,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -564,8 +567,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -586,8 +589,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -608,8 +611,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -630,8 +633,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -652,8 +655,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -674,8 +677,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -696,8 +699,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -718,8 +721,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -740,8 +743,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -762,8 +765,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -784,8 +787,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -806,8 +809,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -828,8 +831,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),
@@ -850,8 +853,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Manhyia()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
               },
             ),
           ),

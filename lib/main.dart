@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/home_page.dart';
-import 'package:unknownpro/search.dart';
 import 'package:unknownpro/tourists.dart';
 
 void main() {

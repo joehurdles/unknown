@@ -17,7 +17,8 @@ class HomePage extends StatefulWidget {
 
 class _HomeState extends State<HomePage> {
   final Completer<GoogleMapController> _controller = Completer();
-  static const LatLng sourceLocation = LatLng(6.5781373, 0.4502368);
+  static const LatLng sourceLocation =
+      LatLng(7.5130555555556, 0.37361111111111);
   static const LatLng destination = LatLng(5.921881, 0.993608);
 
   static const LatLng sourceLocation1 = LatLng(5.827575, 0.969167);
