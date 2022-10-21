@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class Wenya extends StatefulWidget {
-  const Wenya({Key? key}) : super(key: key);
+class AvuAngaw extends StatefulWidget {
+  const AvuAngaw({Key? key}) : super(key: key);
 
   @override
-  State<Wenya> createState() => WenyaState();
+  State<AvuAngaw> createState() => AvuAngawState();
 }
 
-class WenyaState extends State<Wenya> {
+class AvuAngawState extends State<AvuAngaw> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class WenyaState extends State<Wenya> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Wenya Vudo",
+          "Avu and Angaw Lagoon",
           style: TextStyle(
               color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -48,7 +48,7 @@ class WenyaState extends State<Wenya> {
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/wenya-vudo.png',
+                  'assets/images/Volta-river-estuary.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),
@@ -72,7 +72,7 @@ class WenyaState extends State<Wenya> {
           ),
         ),
         Text(
-          "This well though is not built by cement, still exist over 400years now. Sources revealed the height is not exactly known but anyone who enters will be drawn due to its deepness.It is miraculously covered by some special grasses that is not found at anywhere else. The water is considered sacred and is used in pouring Libation during Hogbetsotso Festival Festivities. The place is considered sacred, for that matter , no woman in her menses is allowed to go nearer to the water. Today it serves as a Tourist attraction for anyone who wish to know more about Anlo's history.",
+          "Angaw Lagoon is a lagoon and is located in Ghana. The estimate terrain elevation above seal level is 3 metres.",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
       ],

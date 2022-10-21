@@ -15,6 +15,11 @@ class AtorkorSlaveState extends State<AtorkorSlave> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        title: const Text(
+          "Atorkor Slave Market",
+          style: TextStyle(
+              color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
+        ),
         elevation: 0,
         backgroundColor: Colors.white,
         leading: IconButton(
@@ -67,7 +72,7 @@ class AtorkorSlaveState extends State<AtorkorSlave> {
           ),
         ),
         Text(
-          "The Kumasi AtorkorSlave is a zoo located in the heart of Kumasi in the Ashanti Region of Ghana. The zoo occupies a 1.5-square-kilometre area between the Kejetia Bus Terminal, the old race course and the Kumasi Centre for National Culture.",
+          "In the days of the slave trade, Atorkor became an important slave market. As a result, a memorial was erected in one of Keta’s excellent technical colleges to remember the hardships of the slave’s journey. The memorial around the walls is a stark reminder of how the chiefs were tricked and bribed into allowing the westerners to take slaves from their tribes.",
           style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
         ),
       ],

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class Wenya extends StatefulWidget {
-  const Wenya({Key? key}) : super(key: key);
+class VoltaRiver extends StatefulWidget {
+  const VoltaRiver({Key? key}) : super(key: key);
 
   @override
-  State<Wenya> createState() => WenyaState();
+  State<VoltaRiver> createState() => VoltaRiverState();
 }
 
-class WenyaState extends State<Wenya> {
+class VoltaRiverState extends State<VoltaRiver> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class WenyaState extends State<Wenya> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Wenya Vudo",
+          "Volta River Estuary",
           style: TextStyle(
               color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -48,7 +48,7 @@ class WenyaState extends State<Wenya> {
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/wenya-vudo.png',
+                  'assets/images/Volta-river-estuary.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),
@@ -72,7 +72,7 @@ class WenyaState extends State<Wenya> {
           ),
         ),
         Text(
-          "This well though is not built by cement, still exist over 400years now. Sources revealed the height is not exactly known but anyone who enters will be drawn due to its deepness.It is miraculously covered by some special grasses that is not found at anywhere else. The water is considered sacred and is used in pouring Libation during Hogbetsotso Festival Festivities. The place is considered sacred, for that matter , no woman in her menses is allowed to go nearer to the water. Today it serves as a Tourist attraction for anyone who wish to know more about Anlo's history.",
+          "The Volta River estuary is an area where the biggest river in Ghana meets the ocean. The environment of this estuary boasts of one of the pleasant formation along the coast. The estuary is an area of great scenic beauty, with river and ocean beaches, and picnic spots shaded by palm trees. The sand bars are the nesting grounds for sea birds, and endangered species of turtle are found. The thrill of it all is how the salty ocean mixes with a freshwater river.",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
       ],
