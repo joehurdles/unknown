@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class ChillRiverResort extends StatefulWidget {
-  const ChillRiverResort({Key? key}) : super(key: key);
+class VillaCisneros extends StatefulWidget {
+  const VillaCisneros({Key? key}) : super(key: key);
 
   @override
-  State<ChillRiverResort> createState() => ChillRiverResortState();
+  State<VillaCisneros> createState() => VillaCisnerosState();
 }
 
-class ChillRiverResortState extends State<ChillRiverResort> {
+class VillaCisnerosState extends State<VillaCisneros> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Chill River Resort",
+          "Villa Cisneros Resort",
           style: TextStyle(
               color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -40,15 +40,15 @@ class ChillRiverResortState extends State<ChillRiverResort> {
             child: buildColumn(),
           ),
           SizedBox(
-            height: 2560,
-            width: 1440,
+            height: 560,
+            width: 400,
             child: Card(
               elevation: 0,
               shadowColor: Colors.black,
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/The-Chill-River-Resort.jpg',
+                  'assets/images/villa-Cisneros-resort-and spa.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),
@@ -72,7 +72,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
           ),
         ),
         Text(
-          "The Chill River Resort is an all-year sun-drenched holiday property offering luxury, privacy and an array of exciting activities. Surrender to tranquility during your stay in a Deluxe River View Room or a Paradise Chalet and indulge the trendy beach vibes in between. The Chill brings together all of the best amenities in one place. Swimming, kayaking, riding the waves to the estuary, exploring the nearby picturesque villages hidden in the mangrove, if all that is too much of breaking a sweat, have your senses revived at the eternal spa.",
+          "Whether you dream of a romantic gateway or luxury vacation, a family vacation or fun-filled adventure, spiritual retreat and rejuvenation, or a total tune -up for your mind and body, there’s only one place where it all come together for you. A place where everything is tailored to you. It's Villa Cisneros Resort and Spa.",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
       ],

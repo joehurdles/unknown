@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class ChillRiverResort extends StatefulWidget {
-  const ChillRiverResort({Key? key}) : super(key: key);
+class VumeClayDeposits extends StatefulWidget {
+  const VumeClayDeposits({Key? key}) : super(key: key);
 
   @override
-  State<ChillRiverResort> createState() => ChillRiverResortState();
+  State<VumeClayDeposits> createState() => VumeClayDepositsState();
 }
 
-class ChillRiverResortState extends State<ChillRiverResort> {
+class VumeClayDepositsState extends State<VumeClayDeposits> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Chill River Resort",
+          "Vume Clay Deposits",
           style: TextStyle(
               color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -40,15 +40,15 @@ class ChillRiverResortState extends State<ChillRiverResort> {
             child: buildColumn(),
           ),
           SizedBox(
-            height: 2560,
-            width: 1440,
+            height: 1080,
+            width: 720,
             child: Card(
               elevation: 0,
               shadowColor: Colors.black,
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/The-Chill-River-Resort.jpg',
+                  'assets/images/Vume-clay-deposits.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),
@@ -72,7 +72,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
           ),
         ),
         Text(
-          "The Chill River Resort is an all-year sun-drenched holiday property offering luxury, privacy and an array of exciting activities. Surrender to tranquility during your stay in a Deluxe River View Room or a Paradise Chalet and indulge the trendy beach vibes in between. The Chill brings together all of the best amenities in one place. Swimming, kayaking, riding the waves to the estuary, exploring the nearby picturesque villages hidden in the mangrove, if all that is too much of breaking a sweat, have your senses revived at the eternal spa.",
+          "What was once a way of life and source of income for many ethnic groups in Ghana, today is a form of art that has become one of the tourist attractions in Ghana. Vume, located in the Volta region, is one of them. Well known for its pottery making, Vume village is famous in part thanks to the abundant clay deposits which has inspired the women to go into this craft and became one of the major hobbies.",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
       ],

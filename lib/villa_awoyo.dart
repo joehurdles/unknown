@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class ChillRiverResort extends StatefulWidget {
-  const ChillRiverResort({Key? key}) : super(key: key);
+class VillaAwoyoResort extends StatefulWidget {
+  const VillaAwoyoResort({Key? key}) : super(key: key);
 
   @override
-  State<ChillRiverResort> createState() => ChillRiverResortState();
+  State<VillaAwoyoResort> createState() => VillaAwoyoResortState();
 }
 
-class ChillRiverResortState extends State<ChillRiverResort> {
+class VillaAwoyoResortState extends State<VillaAwoyoResort> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Chill River Resort",
+          "Villa Awoyo Resort",
           style: TextStyle(
               color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
         ),
@@ -40,15 +40,15 @@ class ChillRiverResortState extends State<ChillRiverResort> {
             child: buildColumn(),
           ),
           SizedBox(
-            height: 2560,
-            width: 1440,
+            height: 700,
+            width: 700,
             child: Card(
               elevation: 0,
               shadowColor: Colors.black,
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/The-Chill-River-Resort.jpg',
+                  'assets/images/villa-awoyo-resort.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),
@@ -72,7 +72,7 @@ class ChillRiverResortState extends State<ChillRiverResort> {
           ),
         ),
         Text(
-          "The Chill River Resort is an all-year sun-drenched holiday property offering luxury, privacy and an array of exciting activities. Surrender to tranquility during your stay in a Deluxe River View Room or a Paradise Chalet and indulge the trendy beach vibes in between. The Chill brings together all of the best amenities in one place. Swimming, kayaking, riding the waves to the estuary, exploring the nearby picturesque villages hidden in the mangrove, if all that is too much of breaking a sweat, have your senses revived at the eternal spa.",
+          "Situated on 5 acres of land, Villa Awoyo is a private 5 bedroom guesthouse originally built in 1958. The property is located on the banks of the Volta River in Sogakope, Ghana. The villa was restored in 2017 to create a family friendly, serene riverside retreat. Villa Awoyo features bright and spacious air conditioned bedrooms, a comfortable lounge and multiple dining areas for single or several families.",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
         ),
       ],
