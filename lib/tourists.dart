@@ -712,50 +712,50 @@ class Tourist extends StatelessWidget {
             color: Colors.black38,
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-            child: ListTile(
-              title: const Text(
-                'Kporkporgbor',
-                textScaleFactor: 1.2,
-              ),
-              onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
-              },
-            ),
-          ),
-        ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-            child: ListTile(
-              title: const Text(
-                'Cape',
-                textScaleFactor: 1.2,
-              ),
-              onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
-              },
-            ),
-          ),
-        ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
-        ),
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Kporkporgbor',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Cape',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
