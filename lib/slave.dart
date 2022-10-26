@@ -48,7 +48,7 @@ class AtorkorSlaveState extends State<AtorkorSlave> {
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/1car.png',
+                  'assets/images/Atorkor-Slave-Market.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),

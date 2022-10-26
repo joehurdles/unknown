@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class ChillRiverResort extends StatefulWidget {
-  const ChillRiverResort({Key? key}) : super(key: key);
+class BaselMonument extends StatefulWidget {
+  const BaselMonument({Key? key}) : super(key: key);
 
   @override
-  State<ChillRiverResort> createState() => ChillRiverResortState();
+  State<BaselMonument> createState() => BaselMonumentState();
 }
 
-class ChillRiverResortState extends State<ChillRiverResort> {
+class BaselMonumentState extends State<BaselMonument> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {

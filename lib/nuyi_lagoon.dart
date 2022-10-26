@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
 
-class VumeClayDeposits extends StatefulWidget {
-  const VumeClayDeposits({Key? key}) : super(key: key);
+class NuyiLagoon extends StatefulWidget {
+  const NuyiLagoon({Key? key}) : super(key: key);
 
   @override
-  State<VumeClayDeposits> createState() => VumeClayDepositsState();
+  State<NuyiLagoon> createState() => NuyiLagoonState();
 }
 
-class VumeClayDepositsState extends State<VumeClayDeposits> {
+class NuyiLagoonState extends State<NuyiLagoon> {
   var size, height, width;
   @override
   Widget build(BuildContext context) {

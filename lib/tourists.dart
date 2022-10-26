@@ -1,9 +1,39 @@
 import 'package:flutter/material.dart';
+import 'package:unknownpro/abgblor_lodge.dart';
+import 'package:unknownpro/aborigines.dart';
+import 'package:unknownpro/artificial_island.dart';
+import 'package:unknownpro/avu_angaw.dart';
+import 'package:unknownpro/basel_missionaries.dart';
+import 'package:unknownpro/bomigo_clay.dart';
+import 'package:unknownpro/chill_river.dart';
+import 'package:unknownpro/elibeach_resort.dart';
+import 'package:unknownpro/emancipation_beach.dart';
+import 'package:unknownpro/gravesite.dart';
+import 'package:unknownpro/holy_trinity.dart';
 import 'package:unknownpro/home_page.dart';
 import 'package:unknownpro/keta_lagoon.dart';
+import 'package:unknownpro/ketabeach_hotel.dart';
+import 'package:unknownpro/ketalag_resort.dart';
+import 'package:unknownpro/lagoonview_guesthouse.dart';
 import 'package:unknownpro/lighthouse.dart';
+import 'package:unknownpro/meet_there_lodge.dart';
+import 'package:unknownpro/nuyi_lagoon.dart';
 import 'package:unknownpro/prinzenstein.dart';
+import 'package:unknownpro/seva.dart';
+import 'package:unknownpro/slave.dart';
+import 'package:unknownpro/sogakope_beach.dart';
+import 'package:unknownpro/somewhere.dart';
+import 'package:unknownpro/togbe_tsali.dart';
+import 'package:unknownpro/torkor_atorlia.dart';
+import 'package:unknownpro/tsiame_military.dart';
+import 'package:unknownpro/villa_awoyo.dart';
+import 'package:unknownpro/villa_cisneros.dart';
+import 'package:unknownpro/volta_bridge.dart';
+import 'package:unknownpro/volta_river.dart';
+import 'package:unknownpro/volta_view.dart';
+import 'package:unknownpro/vume_clay.dart';
 import 'package:unknownpro/wenya.dart';
+import 'package:unknownpro/wute_military.dart';
 
 class Tourist extends StatelessWidget {
   const Tourist({super.key});
@@ -105,8 +135,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const SevaIsland()));
               },
             ),
           ),
@@ -127,8 +157,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const AtorkorSlave()));
               },
             ),
           ),
@@ -171,8 +201,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const VoltaRiver()));
               },
             ),
           ),
@@ -193,8 +223,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const AvuAngaw()));
               },
             ),
           ),
@@ -215,8 +245,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const Aboringines()));
               },
             ),
           ),
@@ -237,8 +267,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const KetaLagResort()));
               },
             ),
           ),
@@ -259,8 +289,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const MeetLodge()));
               },
             ),
           ),
@@ -281,8 +311,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const KetaBeachHotel()));
               },
             ),
           ),
@@ -303,8 +333,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const Emancipation()));
               },
             ),
           ),
@@ -325,8 +355,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const AbgblorLodge()));
               },
             ),
           ),
@@ -348,7 +378,9 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => const ChillRiverResort()));
               },
             ),
           ),
@@ -369,8 +401,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const EliBeachResort()));
               },
             ),
           ),
@@ -391,8 +423,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const LagoonView()));
               },
             ),
           ),
@@ -413,8 +445,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const VoltaBridge()));
               },
             ),
           ),
@@ -436,7 +468,9 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => const VumeClayDeposits()));
               },
             ),
           ),
@@ -457,8 +491,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const BaselMonument()));
               },
             ),
           ),
@@ -479,8 +513,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const HolyTrinity()));
               },
             ),
           ),
@@ -501,8 +535,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const VillaCisneros()));
               },
             ),
           ),
@@ -523,8 +557,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const VoltaViewHotel()));
               },
             ),
           ),
@@ -546,7 +580,9 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => const VillaAwoyoResort()));
               },
             ),
           ),
@@ -567,8 +603,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const SogakopeBeach()));
               },
             ),
           ),
@@ -589,8 +625,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const Somewhere()));
               },
             ),
           ),
@@ -611,8 +647,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const TorkorAtorlia()));
               },
             ),
           ),
@@ -633,8 +669,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const Gravesite()));
               },
             ),
           ),
@@ -655,8 +691,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const TogbeTsali()));
               },
             ),
           ),
@@ -677,8 +713,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const TsiameMilitary()));
               },
             ),
           ),
@@ -699,8 +735,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const WuteMilitary()));
               },
             ),
           ),
@@ -766,7 +802,9 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => const BomigoClayDeposits()));
               },
             ),
           ),
@@ -787,8 +825,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const NuyiLagoon()));
               },
             ),
           ),
@@ -810,7 +848,9 @@ class Tourist extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => const ArtificialIsland()));
               },
             ),
           ),
