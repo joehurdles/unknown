@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:unknownpro/abgblor_lodge.dart';
 import 'package:unknownpro/aborigines.dart';
+import 'package:unknownpro/ahiekpors_villa.dart';
 import 'package:unknownpro/artificial_island.dart';
 import 'package:unknownpro/avu_angaw.dart';
 import 'package:unknownpro/basel_missionaries.dart';
 import 'package:unknownpro/bomigo_clay.dart';
 import 'package:unknownpro/chill_river.dart';
+import 'package:unknownpro/cocobay_resort.dart';
 import 'package:unknownpro/elibeach_resort.dart';
 import 'package:unknownpro/emancipation_beach.dart';
 import 'package:unknownpro/gravesite.dart';
@@ -748,50 +750,6 @@ class Tourist extends StatelessWidget {
             color: Colors.black38,
           ),
         ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Kporkporgbor',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Cape',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
@@ -862,12 +820,56 @@ class Tourist extends StatelessWidget {
             color: Colors.black38,
           ),
         ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Cocobay Resort',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const CocoBayResorts()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Ahiekpors Villa',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const AhiekporsVilla()));
+              },
+            ),
+          ),
+        ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
         // Padding(
         //   padding: const EdgeInsets.all(8.0),
         //   child: Container(
         //     child: ListTile(
         //       title: const Text(
-        //         'Klevi Forest',
+        //         'Bulls and Anchor Inn',
         //         textScaleFactor: 1.2,
         //       ),
         //       onTap: () {
@@ -889,7 +891,7 @@ class Tourist extends StatelessWidget {
         //   child: Container(
         //     child: ListTile(
         //       title: const Text(
-        //         'Dodu Island',
+        //         'A&Y Wild Camp Ghana',
         //         textScaleFactor: 1.2,
         //       ),
         //       onTap: () {
@@ -897,6 +899,95 @@ class Tourist extends StatelessWidget {
         //             context, MaterialPageRoute(builder: (_) => const Wenya()));
         //       },
         //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Ekpeame Beach Resort',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Tsisa Guest House',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Villar Amore Resort',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
+        //   ),
+        // ),
+        // Padding(
+        //   padding: const EdgeInsets.all(8.0),
+        //   child: Container(
+        //     child: ListTile(
+        //       title: const Text(
+        //         'Royal Beach Keta',
+        //         textScaleFactor: 1.2,
+        //       ),
+        //       onTap: () {
+        //         Navigator.push(
+        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
+        //       },
+        //     ),
+        //   ),
+        // ),
+        // const Expanded(
+        //   child: Divider(
+        //     height: 0.2,
+        //     thickness: 0.6,
+        //     color: Colors.black38,
         //   ),
         // ),
         // const Expanded(

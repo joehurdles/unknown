@@ -108,7 +108,7 @@ class _HomeState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Unknown",
+          "SogaToKeta",
           style: TextStyle(
               color: Colors.white,
               fontSize: 25,
