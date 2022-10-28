@@ -48,7 +48,7 @@ class AhiekporsVillaState extends State<AhiekporsVilla> {
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/ahiekpors.jpg',
+                  'assets/images/ahiekpors.png',
                   fit: BoxFit.cover,
                 ),
               ]),

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:flutter/material.dart';
 import 'package:unknownpro/abgblor_lodge.dart';
 import 'package:unknownpro/aborigines.dart';
@@ -752,19 +754,17 @@ class Tourist extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
-          child: Container(
-            child: ListTile(
-              title: const Text(
-                'Bomigo Clay Deposit',
-                textScaleFactor: 1.2,
-              ),
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (_) => const BomigoClayDeposits()));
-              },
+          child: ListTile(
+            title: const Text(
+              'Bomigo Clay Deposit',
+              textScaleFactor: 1.2,
             ),
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (_) => const BomigoClayDeposits()));
+            },
           ),
         ),
         const Expanded(
@@ -857,146 +857,226 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Bulls and Anchor Inn',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'A&Y Wild Camp Ghana',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Ekpeame Beach Resort',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Tsisa Guest House',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Villar Amore Resort',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // Padding(
-        //   padding: const EdgeInsets.all(8.0),
-        //   child: Container(
-        //     child: ListTile(
-        //       title: const Text(
-        //         'Royal Beach Keta',
-        //         textScaleFactor: 1.2,
-        //       ),
-        //       onTap: () {
-        //         Navigator.push(
-        //             context, MaterialPageRoute(builder: (_) => const Wenya()));
-        //       },
-        //     ),
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
-        // const Expanded(
-        //   child: Divider(
-        //     height: 0.2,
-        //     thickness: 0.6,
-        //     color: Colors.black38,
-        //   ),
-        // ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Bulls and Anchor Inn',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'A&Y Wild Camp Ghana',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Ekpeame Beach Resort',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Tsisa Guest House',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Villar Amore Resort',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Royal Beach Keta',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                "Nutefe-Elloh's Villa",
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Kedzi Beach',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Gobah Beach',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                "Gobah's Villa",
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Divider(
+            height: 0.2,
+            thickness: 0.6,
+            color: Colors.black38,
+          ),
+        ),
       ]),
     );
   }

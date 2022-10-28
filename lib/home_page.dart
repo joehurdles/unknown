@@ -17,8 +17,7 @@ class HomePage extends StatefulWidget {
 
 class _HomeState extends State<HomePage> {
   final Completer<GoogleMapController> _controller = Completer();
-  static const LatLng sourceLocation =
-      LatLng(7.5130555555556, 0.37361111111111);
+  static const LatLng sourceLocation = LatLng(5.903125, 0.986847);
   static const LatLng destination = LatLng(5.921881, 0.993608);
 
   static const LatLng sourceLocation1 = LatLng(5.827575, 0.969167);
@@ -74,6 +73,21 @@ class _HomeState extends State<HomePage> {
 
   static const LatLng sourceLocation18 = LatLng(5.987317, 0.906653);
   static const LatLng destination18 = LatLng(5.876511, 0.936642);
+
+  static const LatLng sourceLocation19 = LatLng(5.897997, 0.992286);
+  static const LatLng destination19 = LatLng(5.789522, 0.908814);
+
+  static const LatLng sourceLocation20 = LatLng(5.931019, 0.994131);
+  static const LatLng destination20 = LatLng(5.909783, 0.991856);
+
+  static const LatLng sourceLocation21 = LatLng(5.889333, 0.981333);
+  static const LatLng destination21 = LatLng(5.824119, 0.948089);
+
+  static const LatLng sourceLocation22 = LatLng(5.970719, 1.014764);
+  static const LatLng destination22 = LatLng(5.889086, 0.994300);
+
+  static const LatLng sourceLocation23 = LatLng(5.889517, 0.989678);
+  static const LatLng destination23 = LatLng(5.876511, 0.936642);
 
   List<LatLng> polylineCoordinates = [];
 
@@ -133,7 +147,6 @@ class _HomeState extends State<HomePage> {
             target: sourceLocation,
             zoom: 13.5,
           ),
-          // ignore: duplicate_ignore
           markers: {
             const Marker(
               markerId: MarkerId("source"),
@@ -144,115 +157,115 @@ class _HomeState extends State<HomePage> {
               position: destination,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source1"),
               position: sourceLocation1,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination1"),
               position: destination1,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source2"),
               position: sourceLocation2,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination2"),
               position: destination2,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source3"),
               position: sourceLocation3,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination3"),
               position: destination3,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source4"),
               position: sourceLocation4,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination4"),
               position: destination4,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source5"),
               position: sourceLocation5,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination5"),
               position: destination5,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source6"),
               position: sourceLocation7,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination6"),
               position: destination7,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source7"),
               position: sourceLocation8,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination7"),
               position: destination8,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source8"),
               position: sourceLocation9,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination8"),
               position: destination9,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source9"),
               position: sourceLocation10,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination9"),
               position: destination10,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source11"),
               position: sourceLocation11,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination11"),
               position: destination11,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source12"),
               position: sourceLocation12,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination12"),
               position: destination12,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source13"),
               position: sourceLocation13,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination13"),
               position: destination13,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source14"),
               position: sourceLocation14,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination14"),
               position: destination14,
             ),
             const Marker(
-              markerId: MarkerId("source"),
+              markerId: MarkerId("source15"),
               position: sourceLocation15,
             ),
             const Marker(
-              markerId: MarkerId("destination"),
+              markerId: MarkerId("destination15"),
               position: destination15,
             ),
             const Marker(
@@ -287,6 +300,46 @@ class _HomeState extends State<HomePage> {
               markerId: MarkerId("destination"),
               position: destination6,
             ),
+            const Marker(
+              markerId: MarkerId("source"),
+              position: sourceLocation19,
+            ),
+            const Marker(
+              markerId: MarkerId("destination"),
+              position: destination19,
+            ),
+            const Marker(
+              markerId: MarkerId("source"),
+              position: sourceLocation20,
+            ),
+            const Marker(
+              markerId: MarkerId("destination"),
+              position: destination20,
+            ),
+            const Marker(
+              markerId: MarkerId("source"),
+              position: sourceLocation21,
+            ),
+            const Marker(
+              markerId: MarkerId("destination"),
+              position: destination21,
+            ),
+            const Marker(
+              markerId: MarkerId("source"),
+              position: sourceLocation22,
+            ),
+            const Marker(
+              markerId: MarkerId("destination"),
+              position: destination22,
+            ),
+            const Marker(
+              markerId: MarkerId("source"),
+              position: sourceLocation23,
+            ),
+            const Marker(
+              markerId: MarkerId("destination"),
+              position: destination19,
+            ),
           },
           onMapCreated: (mapController) {
             _controller.complete(mapController);
@@ -320,7 +373,7 @@ class _HomeState extends State<HomePage> {
                   padding: EdgeInsets.only(right: 8.0),
                   child: CircleAvatar(
                     backgroundColor: Colors.deepPurple,
-                    child: Text('A'),
+                    child: Text('STK'),
                   ),
                 ),
               ],
