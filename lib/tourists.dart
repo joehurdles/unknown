@@ -1,6 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
+import 'package:unknownpro/a_y.dart';
 import 'package:unknownpro/abgblor_lodge.dart';
 import 'package:unknownpro/aborigines.dart';
 import 'package:unknownpro/ahiekpors_villa.dart';
@@ -8,8 +9,10 @@ import 'package:unknownpro/artificial_island.dart';
 import 'package:unknownpro/avu_angaw.dart';
 import 'package:unknownpro/basel_missionaries.dart';
 import 'package:unknownpro/bomigo_clay.dart';
+import 'package:unknownpro/bulls_anchor.dart';
 import 'package:unknownpro/chill_river.dart';
 import 'package:unknownpro/cocobay_resort.dart';
+import 'package:unknownpro/ekpeame_beach.dart';
 import 'package:unknownpro/elibeach_resort.dart';
 import 'package:unknownpro/emancipation_beach.dart';
 import 'package:unknownpro/gravesite.dart';
@@ -873,8 +876,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const BullsAnchor()));
               },
             ),
           ),
@@ -895,8 +898,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const AYWildCamp()));
               },
             ),
           ),
@@ -917,8 +920,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const EkpeameBeach()));
               },
             ),
           ),
