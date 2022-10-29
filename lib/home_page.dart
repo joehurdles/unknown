@@ -87,8 +87,6 @@ class _HomeState extends State<HomePage> {
   static const LatLng destination22 = LatLng(5.889086, 0.994300);
 
   static const LatLng sourceLocation23 = LatLng(5.889517, 0.989678);
-  static const LatLng destination23 = LatLng(5.876511, 0.936642);
-
   List<LatLng> polylineCoordinates = [];
 
   get polylines => null;
