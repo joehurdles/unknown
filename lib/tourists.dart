@@ -33,6 +33,8 @@ import 'package:unknownpro/somewhere.dart';
 import 'package:unknownpro/togbe_tsali.dart';
 import 'package:unknownpro/torkor_atorlia.dart';
 import 'package:unknownpro/tsiame_military.dart';
+import 'package:unknownpro/tsisa.dart';
+import 'package:unknownpro/villa_amore.dart';
 import 'package:unknownpro/villa_awoyo.dart';
 import 'package:unknownpro/villa_cisneros.dart';
 import 'package:unknownpro/volta_bridge.dart';
@@ -942,8 +944,8 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const TsisaGuestHouse()));
               },
             ),
           ),
@@ -953,12 +955,12 @@ class Tourist extends StatelessWidget {
           child: Container(
             child: ListTile(
               title: const Text(
-                'Villar Amore Resort',
+                'Villa Amore Resort',
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const VillaAmore()));
               },
             ),
           ),
