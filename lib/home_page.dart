@@ -1,7 +1,4 @@
 // ignore_for_file: equal_elements_in_set, duplicate_ignore
-
-import 'dart:typed_data';
-import 'package:label_marker/label_marker.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'dart:async';
@@ -95,7 +92,7 @@ class _HomeState extends State<HomePage> {
   void getPolyPoints() async {
     PolylinePoints polylinePoints = PolylinePoints();
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      "AIzaSyARiTi6OMglnERWdU0B4jLPEiC4WfXepvs", // Your Google Map Key
+      "AIzaSyARiTi6OMglnERWdU0B4jLPEiC4WfXepvs",
       PointLatLng(sourceLocation.latitude, sourceLocation.longitude),
       PointLatLng(destination.latitude, destination.longitude),
     );

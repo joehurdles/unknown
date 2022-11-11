@@ -15,17 +15,22 @@ import 'package:unknownpro/cocobay_resort.dart';
 import 'package:unknownpro/ekpeame_beach.dart';
 import 'package:unknownpro/elibeach_resort.dart';
 import 'package:unknownpro/emancipation_beach.dart';
+import 'package:unknownpro/gobah_beach.dart';
+import 'package:unknownpro/gobah_villa.dart';
 import 'package:unknownpro/gravesite.dart';
 import 'package:unknownpro/holy_trinity.dart';
 import 'package:unknownpro/home_page.dart';
+import 'package:unknownpro/kedzi_beach.dart';
 import 'package:unknownpro/keta_lagoon.dart';
 import 'package:unknownpro/ketabeach_hotel.dart';
 import 'package:unknownpro/ketalag_resort.dart';
 import 'package:unknownpro/lagoonview_guesthouse.dart';
 import 'package:unknownpro/lighthouse.dart';
 import 'package:unknownpro/meet_there_lodge.dart';
+import 'package:unknownpro/nutefe_villa.dart';
 import 'package:unknownpro/nuyi_lagoon.dart';
 import 'package:unknownpro/prinzenstein.dart';
+import 'package:unknownpro/royal_beach.dart';
 import 'package:unknownpro/seva.dart';
 import 'package:unknownpro/slave.dart';
 import 'package:unknownpro/sogakope_beach.dart';
@@ -74,28 +79,6 @@ class Tourist extends StatelessWidget {
           child: Container(
             child: ListTile(
               title: const Text(
-                'Wenya Vudo',
-                textScaleFactor: 1.2,
-              ),
-              onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
-              },
-            ),
-          ),
-        ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-            child: ListTile(
-              title: const Text(
                 'Fort Prinzenstein',
                 textScaleFactor: 1.2,
               ),
@@ -106,12 +89,30 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
+        ),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            child: ListTile(
+              title: const Text(
+                'Wenya Vudo',
+                textScaleFactor: 1.2,
+              ),
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+              },
+            ),
           ),
+        ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -128,12 +129,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -150,12 +149,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -172,12 +169,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -194,12 +189,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -216,12 +209,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -238,12 +229,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -260,12 +249,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -282,12 +269,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -304,12 +289,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -326,12 +309,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -348,12 +329,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -370,12 +349,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -394,12 +371,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -416,12 +391,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -438,12 +411,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -460,12 +431,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -484,12 +453,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -506,12 +473,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -528,12 +493,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -550,12 +513,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -572,12 +533,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -596,12 +555,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -618,12 +575,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -640,12 +595,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -662,12 +615,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -684,12 +635,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -706,12 +655,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -728,12 +675,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -750,12 +695,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -772,12 +715,10 @@ class Tourist extends StatelessWidget {
             },
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -794,12 +735,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -818,12 +757,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -840,12 +777,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -862,12 +797,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -884,12 +817,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -906,12 +837,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -928,12 +857,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -950,6 +877,11 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
+        ),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
@@ -965,12 +897,10 @@ class Tourist extends StatelessWidget {
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -981,18 +911,16 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const RoyalBeach()));
               },
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -1003,18 +931,16 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const NutefeVilla()));
               },
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -1025,18 +951,16 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const KedziBeach()));
               },
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -1047,18 +971,16 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const GobahBeach()));
               },
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -1069,18 +991,16 @@ class Tourist extends StatelessWidget {
                 textScaleFactor: 1.2,
               ),
               onTap: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => const Wenya()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => const GobahVilla()));
               },
             ),
           ),
         ),
-        const Expanded(
-          child: Divider(
-            height: 0.2,
-            thickness: 0.6,
-            color: Colors.black38,
-          ),
+        const Divider(
+          height: 0.2,
+          thickness: 0.6,
+          color: Colors.black38,
         ),
       ]),
     );
