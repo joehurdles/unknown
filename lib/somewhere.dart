@@ -1,4 +1,6 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:unknownpro/somewhere_directions.dart';
 import 'package:unknownpro/tourists.dart';
 
 class Somewhere extends StatefulWidget {
@@ -34,6 +36,29 @@ class SomewhereState extends State<Somewhere> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions19()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),

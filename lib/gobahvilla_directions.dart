@@ -23,7 +23,7 @@ class Directions2 extends StatelessWidget {
                   apiKey: "AIzaSyARiTi6OMglnERWdU0B4jLPEiC4WfXepvs",
                   key: mapsWidgetController,
                   sourceLatLng: const LatLng(5.903125, 0.986847),
-                  destinationLatLng: const LatLng(5.921881, 0.993608),
+                  destinationLatLng: const LatLng(5.889517, 0.989678),
 
                   ///////////////////////////////////////////////////////
                   //////////////    OPTIONAL PARAMETERS    //////////////

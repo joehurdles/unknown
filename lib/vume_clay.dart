@@ -1,5 +1,7 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
+import 'package:unknownpro/vumeclay_directions.dart';
 
 class VumeClayDeposits extends StatefulWidget {
   const VumeClayDeposits({Key? key}) : super(key: key);
@@ -34,6 +36,29 @@ class VumeClayDepositsState extends State<VumeClayDeposits> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions15()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),

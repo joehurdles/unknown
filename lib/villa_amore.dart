@@ -1,5 +1,7 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
+import 'package:unknownpro/villaamore_directions.dart';
 
 class VillaAmore extends StatefulWidget {
   const VillaAmore({Key? key}) : super(key: key);
@@ -34,6 +36,29 @@ class VillaAmoreState extends State<VillaAmore> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions22()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),
