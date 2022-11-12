@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
+import 'package:unknownpro/avuangaw_directions.dart';
 import 'package:unknownpro/tourists.dart';
 
 class AvuAngaw extends StatefulWidget {
@@ -34,6 +36,29 @@ class AvuAngawState extends State<AvuAngaw> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions6()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),

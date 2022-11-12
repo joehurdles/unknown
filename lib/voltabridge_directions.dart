@@ -3,13 +3,13 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_maps_widget/google_maps_widget.dart';
 
-class Directions extends StatelessWidget {
+class Directions14 extends StatelessWidget {
   // can create a controller, and call methods to update source loc,
   // destination loc, interact with the google maps controller to
   // show/hide markers programmatically etc.
   final mapsWidgetController = GlobalKey<GoogleMapsWidgetState>();
 
-  Directions({super.key});
+  Directions14({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Directions extends StatelessWidget {
                   apiKey: "AIzaSyARiTi6OMglnERWdU0B4jLPEiC4WfXepvs",
                   key: mapsWidgetController,
                   sourceLatLng: const LatLng(5.903125, 0.986847),
-                  destinationLatLng: const LatLng(5.921881, 0.993608),
+                  destinationLatLng: const LatLng(5.898161, 0.994239),
 
                   ///////////////////////////////////////////////////////
                   //////////////    OPTIONAL PARAMETERS    //////////////

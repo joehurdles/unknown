@@ -1,4 +1,6 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:unknownpro/slave_directions.dart';
 import 'package:unknownpro/tourists.dart';
 
 class AtorkorSlave extends StatefulWidget {
@@ -34,14 +36,37 @@ class AtorkorSlaveState extends State<AtorkorSlave> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions5()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),
             child: buildColumn(),
           ),
           SizedBox(
-            height: 100,
-            width: 40,
+            height: 300,
+            width: 270,
             child: Card(
               elevation: 0,
               shadowColor: Colors.black,

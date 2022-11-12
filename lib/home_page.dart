@@ -21,19 +21,20 @@ class _HomeState extends State<HomePage> {
   static const LatLng destination1 = LatLng(5.984467, 0.940331);
 
   static const LatLng sourceLocation10 = LatLng(5.776450, 0.822564);
-  static const LatLng destination10 = LatLng(5.897803, 0.976103);
+  static const LatLng destination10 =
+      LatLng(5.897803, 0.976103); //don't know yet
 
-  static const LatLng sourceLocation2 = LatLng(5.777156, 0.677125);
+  static const LatLng sourceLocation2 = LatLng(5.777156, 0.677125); //dky
   static const LatLng destination2 = LatLng(5.976667, 0.744167);
 
   static const LatLng sourceLocation3 = LatLng(5.898161, 0.994239);
-  static const LatLng destination3 = LatLng(5.939225, 0.996114);
+  static const LatLng destination3 = LatLng(5.939225, 0.996114); //dky
 
   static const LatLng sourceLocation4 = LatLng(5.772414, 0.755594);
   static const LatLng destination4 = LatLng(5.898247, 0.989911);
 
   static const LatLng sourceLocation5 = LatLng(5.926050, 0.994467);
-  static const LatLng destination5 = LatLng(5.897369, 0.994986);
+  static const LatLng destination5 = LatLng(5.897369, 0.994986); //dky
 
   static const LatLng sourceLocation6 = LatLng(5.802806, 0.729586);
   static const LatLng destination6 = LatLng(5.845183, 0.981536);
