@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-//import 'package:unknownpro/directions.dart';dd
 import 'package:unknownpro/prinzeinstein_directions.dart';
 import 'package:unknownpro/tourists.dart';
 

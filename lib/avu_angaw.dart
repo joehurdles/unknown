@@ -73,7 +73,7 @@ class AvuAngawState extends State<AvuAngaw> {
               color: Colors.white,
               child: Column(children: [
                 Image.asset(
-                  'assets/images/Volta-river-estuary.jpg',
+                  'assets/images/Avu-and-Angaw-lagoon.jpg',
                   fit: BoxFit.cover,
                 ),
               ]),

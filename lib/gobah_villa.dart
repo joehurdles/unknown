@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-//import 'package:unknownpro/directions.dart';
 import 'package:unknownpro/gobahvilla_directions.dart';
 import 'package:unknownpro/home_page.dart';
 import 'package:unknownpro/tourists.dart';

@@ -1,5 +1,7 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:unknownpro/tourists.dart';
+import 'package:unknownpro/wute_directions.dart';
 
 class WuteMilitary extends StatefulWidget {
   const WuteMilitary({Key? key}) : super(key: key);
@@ -34,6 +36,29 @@ class WuteMilitaryState extends State<WuteMilitary> {
       ),
       body: ListView(
         children: [
+          Center(
+            child: Text.rich(
+              TextSpan(
+                  text: " ",
+                  style: const TextStyle(fontSize: 13, color: Colors.black),
+                  children: <TextSpan>[
+                    TextSpan(
+                        text: 'Directions',
+                        style: const TextStyle(
+                          fontSize: 20,
+                          color: Colors.blue,
+                          decoration: TextDecoration.none,
+                        ),
+                        recognizer: TapGestureRecognizer()
+                          ..onTap = () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (_) => Directions40()));
+                          }),
+                  ]),
+            ),
+          ),
           Container(
             // alignment: Alignment.center,
             padding: const EdgeInsets.all(8.0),
